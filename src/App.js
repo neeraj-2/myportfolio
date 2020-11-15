@@ -7,6 +7,8 @@ import About from './pages/about/about.component';
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
+import Skills from './pages/skills/skill.component'
+import Slide from "react-reveal/Slide";
 
 const App=()=> {
   return (
@@ -30,6 +32,13 @@ const App=()=> {
           </div>
         </Parallax>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+     
     </div>
   );
 }
