@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
-    <div id="about my-details">
+    <div id="about">
       <div className="about my-details">
         <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
         <Container>

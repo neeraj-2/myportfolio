@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MyNavbar from './components/my-navbar/mynavbar.component';
 import MyCarousal from './components/my-carousal/my-carousal.component';
@@ -11,11 +10,19 @@ import Skills from './pages/skills/skill.component'
 import Slide from "react-reveal/Slide";
 import Experience from './pages/experience/experience.component'
 import TimeLine from './components/projects-timeline/projects-timeline.component';
+import ContactForm from "./pages/contact-form/contact-form.component";
+import FooterPanel from "./components/footer/footer.component";
+import Particles from "react-particles-js";
+ import { particlesOptions } from "./particlesOptions";
 
 const App=()=> {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <MyNavbar/>
+      <MyNavbar />
+       <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      /> 
       <MyCarousal />
       <TitleMessage />
       <div>
@@ -53,6 +60,14 @@ const App=()=> {
           <TimeLine />
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactForm />
+        </Fade>
+      </Container>
+      <hr />
+      <FooterPanel />
      
     </div>
   );
