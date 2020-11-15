@@ -1,7 +1,14 @@
 A web developer portfolio using React.js , Node.js and React-Bootstrap
 
+Let's go through the different pages of myportfolio:
+
 
 ![ScreenShot](src/assets/img/readmepreview/home.jpg)
+![ScreenShot](src/assets/img/readmepreview/about.jpg)
+![ScreenShot](src/assets/img/readmepreview/skills.jpg)
+![ScreenShot](src/assets/img/readmepreview/projects.jpg)
+![ScreenShot](src/assets/img/readmepreview/experience.jpg)
+![ScreenShot](src/assets/img/readmepreview/contact.jpg)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
