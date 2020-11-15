@@ -9,6 +9,7 @@ import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Skills from './pages/skills/skill.component'
 import Slide from "react-reveal/Slide";
+import Experience from './pages/experience/experience.component'
 
 const App=()=> {
   return (
@@ -38,6 +39,13 @@ const App=()=> {
           <Skills />
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
      
     </div>
   );
