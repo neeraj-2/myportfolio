@@ -1,4 +1,4 @@
-A web developer portfolio using React.js , Node.js and React-Bootstrap
+My portfolio :-)
 
 Let's go through the different pages of myportfolio:
 
