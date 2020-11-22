@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.7178aa3e.chunk.css",
-    "main.js": "/myportfolio/static/js/main.6be2ceb7.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.6be2ceb7.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.647d6117.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.647d6117.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.70c763bf.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.70c763bf.js.map",
-    "static/js/2.0c8e2cb4.chunk.js": "/myportfolio/static/js/2.0c8e2cb4.chunk.js",
-    "static/js/2.0c8e2cb4.chunk.js.map": "/myportfolio/static/js/2.0c8e2cb4.chunk.js.map",
+    "static/js/2.7001f9d4.chunk.js": "/myportfolio/static/js/2.7001f9d4.chunk.js",
+    "static/js/2.7001f9d4.chunk.js.map": "/myportfolio/static/js/2.7001f9d4.chunk.js.map",
     "index.html": "/myportfolio/index.html",
     "static/css/main.7178aa3e.chunk.css.map": "/myportfolio/static/css/main.7178aa3e.chunk.css.map",
-    "static/js/2.0c8e2cb4.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.0c8e2cb4.chunk.js.LICENSE.txt",
+    "static/js/2.7001f9d4.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.7001f9d4.chunk.js.LICENSE.txt",
     "static/media/Capture.23631665.GIF": "/myportfolio/static/media/Capture.23631665.GIF",
-    "static/media/Robofriends.1852c702.webp": "/myportfolio/static/media/Robofriends.1852c702.webp",
     "static/media/contact-form.styles.css": "/myportfolio/static/media/background.48c0b661.webp",
     "static/media/background.webp": "/myportfolio/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/myportfolio/static/media/bootstrap-4.997c463d.svg",
@@ -33,9 +32,8 @@
     "static/media/mongodb.d89a6eeb.svg": "/myportfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/netlifylogo.09dcd814.png": "/myportfolio/static/media/netlifylogo.09dcd814.png",
     "static/media/nodejs.52cbf9a8.svg": "/myportfolio/static/media/nodejs.52cbf9a8.svg",
-    "static/media/portfolioUsingDjango.9a055785.webp": "/myportfolio/static/media/portfolioUsingDjango.9a055785.webp",
     "static/media/postgresql.ae92b576.svg": "/myportfolio/static/media/postgresql.ae92b576.svg",
-    "static/media/product_hunt_clone.da9eb272.webp": "/myportfolio/static/media/product_hunt_clone.da9eb272.webp",
+    "static/media/prev.58c9a884.jpg": "/myportfolio/static/media/prev.58c9a884.jpg",
     "static/media/profile2.3cfdfe88.png": "/myportfolio/static/media/profile2.3cfdfe88.png",
     "static/media/python.e6d7dc73.svg": "/myportfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/myportfolio/static/media/react-bootstrap.534ba574.svg",
@@ -52,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.70c763bf.js",
-    "static/js/2.0c8e2cb4.chunk.js",
+    "static/js/2.7001f9d4.chunk.js",
     "static/css/main.7178aa3e.chunk.css",
-    "static/js/main.6be2ceb7.chunk.js"
+    "static/js/main.647d6117.chunk.js"
   ]
 }
