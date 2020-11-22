@@ -7,9 +7,7 @@ import L_MernTipCalc from "../../assets/img/projects/todolist.jpg";
 import L_GetGitHubInfo from "../../assets/img/projects/cc.jpg";
 import L_Vue from "../../assets/img/projects/vue.png";
 import L_SmartBrain from "../../assets/img/projects/ccfrontend.jpg";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_URL from "../../assets/img/projects/prev.jpg"
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -396,6 +394,88 @@ const TimeLine = () => {
                 </UrlButton>
                 
               </div>
+              
+            </div>
+          </ImageEvent>
+          <ImageEvent
+           
+            className="text-center"
+            text="URL- Shortener"
+            src={L_URL}
+            alt="Cc Search"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This app shortens long-lengthy URL
+                        <hr />
+                        
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_Vue}
+                                alt="Vue"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                             Vue
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                             HTML5
+                            </span>
+                          </li>
+                          
+                        </ul>
+                        <hr />
+                        
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/neeraj-2/URL-shortener"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+              
             </div>
           </ImageEvent>
 
